@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('../../../styles.css');
+
+main{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px ;
+  gap: 40px;
+}
+
+h1{
+  color: #87BBA2;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.newNote{
+  border: 1px solid #000;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 12px;
+  border-radius: 8px;
+}
+
+hr{
+  background: #000;
+  width: 98% ;
+}
+
+textarea{
+  border: none;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+.textBox{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  margin-top: 10px;
+}
+
+.expandIcon{
+  width: 18px;
+  height: 18px;
+  padding-right: 8px;
+
+}
+
+.textBody{
+  padding-left: 16px;
+  margin-top: 10px;
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  align-items: end;
+}
+
+.textBody:nth-child(2){
+  align-items: end;
+}
+
+.noteTitle {
+  font-size: 22px;
+}
+
+.welcomeText {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input{
+  border: none;
+  width: 95%;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+}
