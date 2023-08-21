@@ -1,5 +1,75 @@
-h1{
-  color: #87BBA2;
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px ;
+  gap: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+hr{
+  background: #000;
+  width: 100% ;
+}
+
+textarea{
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+input{
+  border: none;
+  width: 95%;
+  font-size: 32px;
   font-weight: 700;
-  font-size: 26px;
+}
+
+a{
+  color: #ac2828c9;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  background-color: #71BD8B;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+textarea {
+  resize: none;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.buttons{
+  display: flex;
+  justify-content: end;
+  gap: 22px;
+  align-items: center;
+}
+
+button:hover{
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+}
+
+a:hover{
+  scale: 110ms;
 }
