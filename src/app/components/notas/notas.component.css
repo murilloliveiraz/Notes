@@ -5,20 +5,21 @@ section{
   align-items: center;
   margin-top: 36px ;
   width: 100%;
+  height: 90vh;
   font-family: 'Poppins', sans-serif;
 }
 
 form{
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 hr{
   background: #FFF;
-  width: 90% ;
+  width: 90%;
 }
 
 textarea{
@@ -27,7 +28,7 @@ textarea{
   font-family: 'Poppins', sans-serif;
   font-size: 22px;
   width: 90%;
-  height: 450px;
+  height: 70%;
   resize: none;
   font-size: 16px;
   color: #FFF;
@@ -41,6 +42,7 @@ input{
   border: none;
   color: #FFF;
   width: 90%;
+  height: 10%;
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;

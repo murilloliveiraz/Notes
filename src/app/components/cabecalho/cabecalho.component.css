@@ -13,7 +13,7 @@ header{
   justify-content: space-between;
   padding: 0 24px;
   align-items: center;
-  height: 90px;
+  height: 10vh;
   color: #FFF;
   box-shadow: hsla(0, 0%, 50%, 0.1) 0 0.3rem 0.5rem;
   border-bottom: 1px transparent(255, 255, 255, 0.1);
