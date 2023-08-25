@@ -1,11 +1,4 @@
-<section class="form">
-  <form action="">
-      <input type="text" placeholder="Título..." class="noteTitle">
-    <hr>
-      <textarea placeholder="Escreva sua nota aqui..."></textarea>
-    <div class="buttons">
-      <a href="#">Cancelar</a>
-      <button type="submit" routerLink="/main">Salvar</button>
-    </div>
-  </form>
-</section>
+<div class="{{nota.tipo}}">
+  <h1>{{nota.titulo}}</h1>
+  <p>{{nota.conteudo}}</p>
+</div>

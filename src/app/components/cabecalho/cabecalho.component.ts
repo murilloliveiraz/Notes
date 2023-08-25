@@ -1,3 +1,4 @@
+import { style } from '@angular/animations';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./cabecalho.component.css']
 })
 export class CabecalhoComponent {
+  nota= {
+    titulo: "AAAAAAAAAAAAAAA",
+    conteudo: "teste",
+    tipo: "tipo1"
+  }
 
 }

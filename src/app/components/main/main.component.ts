@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
-
+  listaNotas = [
+    {
+      titulo: "BBBBB",
+      conteudo: "aaaaaaaaaaaaa",
+      tipo: "tipo2"
+  },
+    {
+      titulo: "CCCCCCCC",
+      conteudo: "aaaaaaaaaaaaa",
+      tipo: "tipo2"
+  },
+];
 }
