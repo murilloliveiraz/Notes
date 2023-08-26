@@ -1,4 +1,7 @@
-<div class="{{nota.tipo}}">
-  <h1>{{nota.titulo}}</h1>
-  <p>{{nota.conteudo}}</p>
+<div class="card">
+  <div class="card-details">
+    <p class="text-title">{{nota.titulo}}</p>
+    <p class="text-body">{{nota.conteudo}}</p>
+  </div>
+  <button class="card-button" routerLink="/edit">Editar</button>
 </div>

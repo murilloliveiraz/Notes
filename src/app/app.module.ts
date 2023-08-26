@@ -7,6 +7,9 @@ import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
 import { MainComponent } from './components/main/main.component';
 import { NotasComponent } from './components/notas/notas.component';
 import { EscreverNotaComponent } from './components/escrever-nota/escrever-nota.component';
+import { SemNotasComponent } from './components/sem-notas/sem-notas.component';
+import { EditComponent } from './components/edit/edit.component';
+import { SucessComponent } from './components/sucess/sucess.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { EscreverNotaComponent } from './components/escrever-nota/escrever-nota.
     CabecalhoComponent,
     MainComponent,
     NotasComponent,
-    EscreverNotaComponent
+    EscreverNotaComponent,
+    SemNotasComponent,
+    EditComponent,
+    SucessComponent
   ],
   imports: [
     BrowserModule,

@@ -9,13 +9,23 @@ export class MainComponent {
   listaNotas = [
     {
       titulo: "BBBBB",
-      conteudo: "aaaaaaaaaaaaa",
+      conteudo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque venenatis nunc sit amet consectetur. Aenean sit amet aliquam felis, eget porttitor neque.",
       tipo: "tipo2"
   },
     {
       titulo: "CCCCCCCC",
-      conteudo: "aaaaaaaaaaaaa",
+      conteudo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque venenatis nunc sit amet consectetur. Aenean sit amet aliquam felis, eget porttitor neque.",
       tipo: "tipo2"
   },
+    {
+      titulo: "CCCCCCCC",
+      conteudo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque venenatis nunc sit amet consectetur. Aenean sit amet aliquam felis, eget porttitor neque.",
+      tipo: "tipo2"
+  },
+    {
+      titulo: "CCCCCCCC",
+      conteudo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque venenatis nunc sit amet consectetur. Aenean sit amet aliquam felis, eget porttitor neque.",
+      tipo: "tipo2"
+  }
 ];
 }
