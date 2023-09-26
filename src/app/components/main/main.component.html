@@ -1,15 +1,25 @@
 <main>
-  <section>
+
+  <section *ngIf="listaNotas.length <= 0">
       <h1 class="titleNoNotes">Suas anotações irão aparecer aqui...</h1>
       <img src="../../../assets/images/nota.svg" alt="">
   </section>
-  <button routerLink="/escrever" class="Btn">
 
-    <div class="sign"><svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M180-180h44l443-443-44-44-443 443v44Zm614-486L666-794l84-84 128 128-84 84ZM120-120v-128l504-504 128 128-504 504H120Zm525-525-22-22 44 44-22-22Z"/></svg></div>
-  </button>
-  
-      <div class="text">Escrever nova nota</div>
+  <div class="mainComNotas" *ngIf="listaNotas.length > 0">
+    <div class="tituloMain">
+      <h1>Bem vindo ao Notes</h1>
+      <p>Suas anotações estao abaixo</p>
+    </div>
+    <div class="notasDiv">
       <div *ngFor="let nota of listaNotas">
         <app-notas [nota]="nota"></app-notas>
       </div>
+    </div>
+  </div>
+
+  <button routerLink="/escrever" class="Btn">
+    <span class="material-symbols-outlined">
+      add_circle
+      </span>
+  </button>
 </main>
