@@ -46,5 +46,4 @@ export class MainComponent {
         conteudo: 'Angular é estranho'
       }
     ];
-
 }
