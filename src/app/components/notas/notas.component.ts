@@ -13,5 +13,4 @@ export class NotasComponent {
     conteudo: 'Angular é muito bom!',
     titulo: 'tipo1'
   }
-
 }

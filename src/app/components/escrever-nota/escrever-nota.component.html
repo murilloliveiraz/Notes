@@ -1,11 +1,14 @@
 <section class="form">
-  <form action="">
-      <input type="text" placeholder="Título..." class="noteTitle">
+  <form>
+      <input name="nome" type="text"
+       placeholder="Título..." class="noteTitle"
+       [(ngModel)]="nota.titulo"
+       >
     <hr>
-      <textarea placeholder="Escreva sua nota aqui..."></textarea>
+      <textarea name="conteudo" [(ngModel)]="nota.conteudo" placeholder="Escreva sua nota aqui..."></textarea>
     <div class="buttons">
-      <a href="#">Cancelar</a>
-      <button type="submit" routerLink="/main">Salvar</button>
+      <button (click)="cancelarNota()">Cancelar</button>
+      <button (click)="criarNota()">Criar Nota</button>
     </div>
   </form>
 </section>

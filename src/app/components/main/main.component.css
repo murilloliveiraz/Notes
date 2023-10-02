@@ -6,8 +6,16 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 60px;
   gap: 40px;
+}
+
+.main{
+  margin-top: 100px;
+}
+
+img{
+  width: 300px;
 }
 
 section{
@@ -54,10 +62,14 @@ h1{
   color: #FFF;
 }
 
-.tituloMain h1{
+h1{
   margin-bottom: 20px;
   font-size: 40px;
   text-align: center;
+}
+
+h3{
+  color: #FFF;
 }
 
 .tituloMain p {
