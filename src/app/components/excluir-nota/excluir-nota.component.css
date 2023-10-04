@@ -1,0 +1,43 @@
+.excluirDiv{
+  background-color: #1A1A1A;
+  width: 500px;
+  height: 300px;
+  margin: 200px auto;
+  color: #f6f6f6;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: hsla(0, 0%, 50%, 0.1) 0 0.3rem 0.5rem;
+  border-bottom: 1px transparent(255, 255, 255, 0.1);
+}
+
+h3{
+  font-size: 26px;
+}
+
+.cancelar{
+  background: transparent;
+}
+
+button{
+  width: 160px;
+  color: #f6f6f6;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.excluir{
+  background-color: #D22B2B;
+  border-radius: 8px;
+  transition: all 300ms;
+}
+
+
+.excluir:hover{
+  background-color: #8B0000;
+}

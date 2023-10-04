@@ -3,8 +3,9 @@
   <p>{{nota.conteudo}}</p>
 </div> -->
 
-<div routerLink="/edit" class="row">
+<div routerLink="/escrever" class="row">
   <div class="card">
+    <img class="delete" src="../../../assets/images/delete.svg" routerLink="/excluirNota/{{ nota.id }}" alt="">
       <h4>{{nota.titulo}}</h4>
       <p>{{nota.conteudo}}</p>
   </div>

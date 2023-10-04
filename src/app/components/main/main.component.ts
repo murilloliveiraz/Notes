@@ -31,21 +31,6 @@ export class MainComponent {
         id: 3,
         titulo: 'tipo1',
         conteudo: 'Angular é estranho'
-      },
-      {
-        id: 4,
-        titulo: 'tipo1',
-        conteudo: 'Angular é estranho'
-      },
-      {
-        id:5,
-        titulo: 'tipo1',
-        conteudo: 'Angular é estranho'
-      },
-      {
-        id: 6,
-        titulo: 'tipo1',
-        conteudo: 'Angular é estranho'
       }
     ];
 }

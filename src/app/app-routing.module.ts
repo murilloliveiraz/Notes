@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { NotasComponent } from './components/notas/notas.component';
 import { MainComponent } from './components/main/main.component';
 import { EscreverNotaComponent } from './components/escrever-nota/escrever-nota.component';
-import { EditComponent } from './components/edit/edit.component';
 import { SucessComponent } from './components/sucess/sucess.component';
+import { ExcluirNotaComponent } from './components/excluir-nota/excluir-nota.component';
 
 const routes: Routes = [
   {
@@ -25,12 +25,12 @@ const routes: Routes = [
     component: EscreverNotaComponent
   },
   {
-    path: 'edit',
-    component: EditComponent
-  },
-  {
     path: 'sucess',
     component: SucessComponent
+  },
+  {
+    path: 'excluirNota/:id',
+    component: ExcluirNotaComponent
   }
 ];
 
